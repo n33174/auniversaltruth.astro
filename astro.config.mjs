@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
-import NetlifyCMS from 'astro-netlify-cms';
+import DecapCMS from 'astro-decap-cms';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    NetlifyCMS({
+    DecapCMS({
       config: {
         // Use Netlify’s “Git Gateway” authentication and target our default branch
         backend: {
